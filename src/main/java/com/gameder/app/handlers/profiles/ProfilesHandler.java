@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 @RestController
 public class ProfilesHandler {
-    @CrossOrigin
     @RequestMapping(value = "/api/profiles", method = RequestMethod.GET)
     public ArrayList<Profile> getGamerList() {
         ArrayList<Profile> profiles = new ArrayList<Profile>();
